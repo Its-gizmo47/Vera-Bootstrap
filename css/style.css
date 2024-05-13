@@ -3,8 +3,20 @@ header {
   background-size: cover;
 }
 
+.xl-text {
+  font-size: 65px;
+}
+
+.vertical-decoration {
+  top: 22%;
+  width: 24px;
+}
+
 @media (max-width: 767px) {
   header {
     text-align: center;
+  }
+  .xl-text {
+    font-size: 50px;
   }
 }

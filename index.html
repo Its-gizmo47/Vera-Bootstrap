@@ -81,24 +81,194 @@
 
     <!-- Header -->
     <header id="home" class="vh-100 position-relative">
+      <img
+        src="images/vertical-decoration-left.svg"
+        alt=""
+        class="vertical-decoration position-absolute d-none d-md-block"
+      />
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 mt-5">
-            <h1 class="display-3 mt-7 fw-medium">
+          <div class="col-md-6 pt-5">
+            <h1 class="xl-text mt-7">
               Software Solutions For
-              <span class="text-primary fw-bold">Small Business</span>
+              <span class="text-primary fw-bold replace-me"
+                >Small Business</span
+              >
             </h1>
             <p class="lead">
               Boost your business with cutting-edge software solutions tailored
               to the needs of modern enterprises.
             </p>
-            <a href="#" class="btn btn-primary text-white">learn More</a>
+            <a href="#" class="btn btn-primary text-white">Learn More</a>
           </div>
         </div>
       </div>
     </header>
 
-    <section id="partners" class="vh-100"></section>
+    <!-- Partners -->
+
+    <section id="partners" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <h6 class="text-center mb-4">OUR PARTNERS</h6>
+            <div class="d-flex justify-content-center align-items-center">
+              <div>
+                <img
+                  class="d-none d-xl-block mx-5"
+                  src="./images/partner-logo-1.png"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  class="d-none mx-5 d-md-block"
+                  src="./images/partner-logo-2.png"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  class="d-none mx-5 d-lg-block"
+                  src="./images/partner-logo-3.png"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <img class="mx-5" src="./images/partner-logo-5.png" alt="" />
+              </div>
+              <div>
+                <img class="mx-5" src="./images/partner-logo-6.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="fw-bold">Get More Information</h2>
+            <hr
+              style="width: 80px; height: 10px; display: block"
+              class="bg-primary"
+            />
+            <p class="lead">
+              We provide innovative software solutions that empower businesses
+              to thrive in the digital era.
+            </p>
+            <ul class="list-unstyled lh-lg">
+              <li class="d-flex align-items-center gap-3">
+                <i class="fa-solid fa-check text-primary"></i>
+                <p>
+                  <strong>Customized Solutions:</strong> Our solutions are
+                  designed to meet your specific business needs, ensuring
+                  maximum efficiency and productivity.
+                </p>
+              </li>
+              <li class="d-flex align-items-center gap-3">
+                <i class="fa-solid fa-check text-primary"></i>
+                <p>
+                  <strong>Seamless Integration:</strong> We seamlessly integrate
+                  our software with your existing systems, minimizing
+                  disruptions and optimizing workflows.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <form>
+              <div class="mb-4">
+                <input
+                  type="text"
+                  placeholder="Enter name"
+                  class="form-control bg-secondary"
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="email"
+                  placeholder="Enter email"
+                  class="form-control bg-secondary"
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="text"
+                  placeholder="Enter phone"
+                  class="form-control bg-secondary"
+                />
+              </div>
+              <div class="mb-4">
+                <select class="form-control bg-secondary">
+                  <option>Interested In...</option>
+                  <option>ERP Solution</option>
+                  <option>CRM Solution</option>
+                  <option>SFA Solution</option>
+                  <option>CMS Solution</option>
+                </select>
+              </div>
+              <div class="mb-4 form-check">
+                <input type="checkbox" id="chk" />
+                <label for="chk" class="form-check-label">
+                  I agree to the <a href="#">Privacy Policy</a></label
+                >
+              </div>
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg text-white" type="submit">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="py-5 bg-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-4">
+            <h6 class="mb-3">About Vera</h6>
+            <p>
+              Vera is a dedicated software solutions company that aims to
+              provide exceptional services to its clients. We are committed to
+              delivering innovative and customized solutions that meet your
+              specific business needs.
+            </p>
+          </div>
+          <div class="col-md-4 my-4">
+            <h6 class="mb-3">Links</h6>
+            <h6>
+              Useful: <a href="#">Expertise</a> , <a href="#">Pricing</a>,
+              <a href="#">Newsletter</a>
+            </h6>
+            <h6>
+              Menu: <a href="#home">Home</a> , <a href="#details">Details</a>,
+              <a href="#solutions">Solutions</a>,<a href="#projects"
+                >Projects</a
+              >
+            </h6>
+          </div>
+          <div class="col-md-6 my-4">
+            <div class="social-icons d-flex gap-3 mb-4">
+              <i class="fa-brands fa-facebook fa-3x"></i>
+              <i class="fa-brands fa-twitter fa-3x"></i>
+              <i class="fa-brands fa-instagram fa-3x"></i>
+              <i class="fa-brands fa-pinterest fa-3x"></i>
+            </div>
+            <h6>
+              We would love to hear from you <a href="#">contact@site.com</a>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/app.js"></script>
