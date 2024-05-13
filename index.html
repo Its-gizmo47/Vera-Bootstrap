@@ -25,7 +25,7 @@
   </head>
   <body>
     <!-- navigation -->
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark py-4">
       <div class="container">
         <a href="#" class="navbar-brand">
           <img src="./images/logo.svg" alt="" width="100" />
@@ -38,7 +38,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div id="navbarNavMenu" class="navbar-collapse collapse show bg-dark">
+        <div id="navbarNavMenu" class="navbar-collapse collapse show">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a href="#home" class="nav-link">Home</a>
@@ -229,6 +229,119 @@
       </div>
     </section>
 
+    <!-- Details -->
+    <section id="details" class="py-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <h2 class="fw-bold">Evaluation & Deployment</h2>
+            <hr
+              style="width: 80px; height: 10px; display: block"
+              class="bg-primary"
+            />
+            <p>
+              We offer comprehensive evaluation and deployment services to
+              ensure a smooth and successful implementation of our software
+              solutions.
+            </p>
+            <ul class="list-unstyled lh-lg">
+              <li class="d-flex align-items-center gap-3">
+                <i class="fa-solid fa-check text-primary"></i>
+                <p>
+                  <strong> Customized solutions:</strong> We tailor our
+                  solutions to align with your unique business needs.
+                </p>
+              </li>
+              <li class="d-flex align-items-center gap-3">
+                <i class="fa-solid fa-check text-primary"></i>
+                <p>
+                  <strong> Seamless Integration:</strong> Our team ensures
+                  smooth integration of the software into your existing
+                  infrastructure, minimizing disruptions.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 mb-5">
+            <img
+              src="images/details-1.jpg"
+              alt=""
+              class="img-fluid rounded-2"
+            />
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-6 mb-5">
+            <img
+              src="images/details-2.jpg"
+              alt=""
+              class="img-fluid rounded-2"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h2 class="fw-bold">Maintenance & Support</h2>
+            <hr
+              style="width: 80px; height: 10px; display: block"
+              class="bg-primary"
+            />
+            <p>
+              We provide comprehensive maintenance and support services to
+              ensure the smooth and uninterrupted operation of your software
+              solutions. <a href="#">Learn more about our support services.</a>
+            </p>
+            <ul class="list-unstyled lh-lg">
+              <li class="d-flex align-items-center gap-3">
+                <i class="fa-solid fa-check text-primary"></i>
+                <p>
+                  <strong> Proactive Maintenance:</strong> We proactively
+                  monitor and maintain your software solutions to prevent issues
+                  and optimize performance.
+                </p>
+              </li>
+              <li class="d-flex align-items-center gap-3">
+                <i class="fa-solid fa-check text-primary"></i>
+                <p>
+                  <strong> Timely Updates:</strong> We ensure your software is
+                  up to date with the latest features, security patches, and
+                  enhancements.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- subscribe -->
+
+    <section id="subscribe" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="text-container text-center">
+              <h2 class="fw-bold">Subscribe And Follow</h2>
+              <p>
+                Stay updated with our latest news and announcements. Subscribe
+                to our newsletter and follow us on social media for valuable
+                insights and exciting updates.
+              </p>
+            </div>
+
+            <form>
+              <div class="input-group input-group-lg mt-5">
+                <input
+                  type="email"
+                  placeholder="Enter Email Address"
+                  class="form-control form-control-lg"
+                />
+                <a class="btn btn-primary btn-lg text-white"> Submit </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- footer -->
     <footer class="py-5 bg-secondary">
       <div class="container">
@@ -244,18 +357,22 @@
           </div>
           <div class="col-md-4 my-4">
             <h6 class="mb-3">Links</h6>
-            <h6>
+            <h6 class="mb-2">
+              Important: <a href="#">Terms & Conditions</a> ,
+              <a href="#">Privacy Policy</a>
+            </h6>
+            <h6 class="mb-2">
               Useful: <a href="#">Expertise</a> , <a href="#">Pricing</a>,
               <a href="#">Newsletter</a>
             </h6>
-            <h6>
+            <h6 class="mb-2">
               Menu: <a href="#home">Home</a> , <a href="#details">Details</a>,
               <a href="#solutions">Solutions</a>,<a href="#projects"
                 >Projects</a
               >
             </h6>
           </div>
-          <div class="col-md-6 my-4">
+          <div class="col-md-4 my-4">
             <div class="social-icons d-flex gap-3 mb-4">
               <i class="fa-brands fa-facebook fa-3x"></i>
               <i class="fa-brands fa-twitter fa-3x"></i>
@@ -263,7 +380,8 @@
               <i class="fa-brands fa-pinterest fa-3x"></i>
             </div>
             <h6>
-              We would love to hear from you <a href="#">contact@site.com</a>
+              We would love to hear from you
+              <a href="#" class="fw-bold">contact@site.com</a>
             </h6>
           </div>
         </div>
